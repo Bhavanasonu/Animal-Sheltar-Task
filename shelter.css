@@ -1,0 +1,147 @@
+.nav-link{
+  color: black !important;
+}
+.navbar-brand{
+   color: black !important;
+}
+.navbar-toggler{
+  color:darkgreen !important;
+}
+body{
+background: #EBF9FF;
+}
+.jumbotron{
+  background: #EBF9FF !important;
+
+}
+.heading{
+  font-family: "roboto";
+  font-weight: bold;
+  font-size:24px;
+}
+.btn-design{
+  display:inline;
+}
+.adoptbtn{
+  width: 96px;
+  height: 50px;
+  padding:10px, 20px, 10px, 20px;
+  background: #FF6584;
+}
+.btnText{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color:#FFFFFF;
+}
+.allpets{
+  height: 50px;
+  width: 288px;
+border-color: black;
+
+}
+.heading2{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size:32px;
+  line-height: 48px;
+}
+.auto-layout{
+  float: right;
+  text-align:right;
+}
+.font-4{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}
+.giveawaybtn{
+height: 60px;
+width: 150px;
+border-color: black;
+float: right;
+padding: 10px;
+}
+footer{
+  background-color: #131313 !important;
+}
+.adoptbtn2{
+  height:46px;
+  width:120px;
+    padding:10px, 20px, 10px, 20px;
+  background: #FF6584;
+}
+@media screen and (max-width: 480px) {
+  .adoptbtn {
+  height: 50px;
+  width: 288px;
+  /* align-items: center; */
+  margin-bottom: 10px;
+  }
+  .btn-design{
+    margin-left:30px;
+  }
+  .imganimal{
+   padding-left:80px;
+  }
+  .heading2{
+      font-family: 'Lato';
+  font-weight: 400;
+  size:20px;
+  line-height: 30px;
+}
+.auto-layout{
+ text-align:left;
+gap: 16px;
+padding: 15px;
+}
+.font-4{
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+}
+.giveawaybtn{
+  float: none;
+  margin-left:70px;
+}
+.text{
+  margin-left:30px;
+}
+}
+
+
+
+.table th, .table td { 
+  border-top: none !important; 
+}
+.table tbody tr th, .table tfoot tr td, .table tfoot tr th, .table thead tr td, .table thead tr th{
+  border-bottom: 1px solid black !important; 
+}
+
+.clicker {
+  width:100px;
+  height:100px;
+  background-color:blue;
+  outline:none;
+  cursor:pointer;
+  }
+  
+  .hiddendiv{
+  display:none;
+  height:200px;
+  background-color:green;
+  }
+  
+  .clicker:focus + .hiddendiv{
+  display:block;
+  }
+
+  .tab{
+    font-size: 15px;
+    border: none;
+    color: #131313;
+    background-color: #EBF9FF;
+    font-weight: bolder;
+  }
